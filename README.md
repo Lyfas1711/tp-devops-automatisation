@@ -41,8 +41,7 @@ chmod +x auto_deploy.sh
 
 ### Options disponibles
 
-| Option | Description | Défaut |
-|--------|-------------|--------|
+
 | `-d, --dir` | Nom du dossier cible | `mon_app` |
 | `-b, --branch` | Branche Git | `main` |
 | `-h, --help` | Afficher l'aide | - |
@@ -72,8 +71,6 @@ npm start
 
 ### Routes API
 
-| Route | Méthode | Réponse |
-|-------|---------|---------|
 | `/` | GET | Message de bienvenue |
 | `/ping` | GET | `{"response": "pong"}` |
 | `/status` | GET | Statut et uptime du serveur |
@@ -94,8 +91,6 @@ Le fichier `.github/workflows/ci.yml` définit un pipeline avec 3 jobs :
 Settings > Secrets and variables > Actions > New repository secret
 ```
 
-| Secret | Description |
-|--------|-------------|
 | `DOCKER_USERNAME` | Nom d'utilisateur Docker Hub |
 | `DOCKER_PASSWORD` | Mot de passe Docker Hub |
 | `SSH_HOST` | Adresse IP du serveur |
@@ -143,17 +138,3 @@ terraform destroy
 > export AWS_ACCESS_KEY_ID="votre-access-key"
 > export AWS_SECRET_ACCESS_KEY="votre-secret-key"
 > ```
-
----
-
-## Évaluation
-
-| Critère | Points |
-|---------|--------|
-| Script Bash fonctionnel et commenté | 4 pts |
-| Pipeline CI/CD opérationnel | 4 pts |
-| Bonnes pratiques (erreurs, logs, sécurité) | 3 pts |
-| Rapport / réponses aux questions | 3 pts |
-| Bonus (Docker, déploiement SSH) | 2 pts |
-| **Total** | **16 pts** |
-
