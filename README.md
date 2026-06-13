@@ -33,10 +33,10 @@ tp-devops-automatisation/
 chmod +x auto_deploy.sh
 
 # Utilisation de base (URL en paramètre)
-./auto_deploy.sh https://github.com/votre-nom/votre-app.git
+./auto_deploy.sh https://github.com/Lyfas1711/tp-devops-automatisation.git
 
 # Avec options
-./auto_deploy.sh -d mon_projet -b develop https://github.com/votre-nom/votre-app.git
+./auto_deploy.sh -d mon_projet -b develop https://github.com/Lyfas1711/tp-devops-automatisation.git
 ```
 
 ### Options disponibles

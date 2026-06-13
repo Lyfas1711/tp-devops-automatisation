@@ -47,8 +47,8 @@ usage() {
     echo "  -h, --help      Afficher cette aide"
     echo ""
     echo "Exemple:"
-    echo "  $0 https://github.com/votre-nom/votre-app.git"
-    echo "  $0 -d mon_projet -b develop https://github.com/votre-nom/votre-app.git"
+    echo "  $0 https://github.com/Lyfas1711/tp-devops-automatisation.git"
+    echo "  $0 -d mon_projet -b develop https://github.com/Lyfas1711/tp-devops-automatisation.git"
     echo ""
 }
 

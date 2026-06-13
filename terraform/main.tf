@@ -135,7 +135,7 @@ resource "aws_instance" "web" {
     npm install -g pm2
 
     # Cloner et démarrer l'application
-    git clone https://github.com/votre-nom/tp-devops-app.git /var/www/app
+    git clone https://github.com/Lyfas1711/tp-devops-automatisation.git /var/www/app
     cd /var/www/app
     npm install --production
     pm2 start src/app.js --name "tp-devops-app"
