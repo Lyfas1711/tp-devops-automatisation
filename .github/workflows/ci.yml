@@ -64,7 +64,12 @@ jobs:
   # JOB 3 : Déploiement SSH sur serveur (Avancé)
   # Se déclenche UNIQUEMENT si build-and-test réussit
   # ============================================================
-  
+  deploy:
+    name: Deploy to Server
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: false  # Désactivé - pas de serveur SSH disponible
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
