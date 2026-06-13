@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TP DevOps - Automatisation
 **UCAD - Département Informatique - 2025-2026**
 
@@ -155,3 +156,4 @@ terraform destroy
 | Rapport / réponses aux questions | 3 pts |
 | Bonus (Docker, déploiement SSH) | 2 pts |
 | **Total** | **16 pts** |
+
